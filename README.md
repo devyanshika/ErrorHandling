@@ -21,6 +21,7 @@ b. Click on the next file option and create a new file and save it with a ".sol"
 c. copy and paste the code that is given in the assessment page, write your own code then.
 
 *this is my code 
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 contract IceCream{
