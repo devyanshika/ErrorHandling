@@ -15,9 +15,10 @@ contract IceCream{
     }
 
     //revert()
-    function revertIceCream(uint256 _amount)public pure{
+    function revertIceCream(uint256 _amount)public {
         if (_amount % 2 !=0){
             revert("Amount to be even");
         }
+        IceCreamStock = _amount;
     }
 }
